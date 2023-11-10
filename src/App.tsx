@@ -10,8 +10,8 @@ function App() {
     const { pathname } = useLocation();
 
     useEffect(() => {
-        if (pathname === "/") {
-            navigate("/home");
+        if (pathname === "/ReactJS-Portfolio/" || pathname === "/ReactJS-Portfolio") {
+            navigate("/ReactJS-Portfolio/home");
         }
     }, [])
 
@@ -19,10 +19,10 @@ function App() {
         <Routes>
             <Route element={<Layout />}>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/home" element={<HomePage />} />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/project" element={<ProjectPage />} />
-                <Route path="/*" element={<HomePage />} />
+                <Route path="/ReactJS-Portfolio/home" element={<HomePage />} />
+                <Route path="/ReactJS-Portfolio/about" element={<AboutPage />} />
+                <Route path="/ReactJS-Portfolio/project" element={<ProjectPage />} />
+                <Route path="/ReactJS-Portfolio/*" element={<HomePage />} />
             </Route>
         </Routes>
     )

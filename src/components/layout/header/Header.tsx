@@ -4,15 +4,15 @@ import { BiLogoFacebook, BiLogoGithub, BiLogoLinkedin } from "react-icons/bi"
 const links = [
     {
         label: "Home",
-        href: "/home",
+        href: "/ReactJS-Portfolio/home",
     },
     {
         label: "About",
-        href: "/about",
+        href: "/ReactJS-Portfolio/about",
     },
     {
         label: "Project",
-        href: "/project",
+        href: "/ReactJS-Portfolio/project",
     },
 ]
 
