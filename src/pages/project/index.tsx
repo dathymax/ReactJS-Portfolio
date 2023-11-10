@@ -31,7 +31,7 @@ const projects = [
                 href: "https://dathymax.github.io/Love%20Travel/child-web/search-1/index.html"
             },
             {
-                name: "Love Travel Search 1",
+                name: "Love Travel Search 2",
                 image: LoveTravelSearch2,
                 href: "https://dathymax.github.io/Love%20Travel/child-web/search-2/index.html"
             },
