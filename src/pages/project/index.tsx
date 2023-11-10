@@ -9,6 +9,12 @@ import NextJSTravel from "../../images/projects/travel-nextjs.png"
 import ShoeAdmin from "../../images/projects/shoe-admin.jpg"
 import ShoeCustomer from "../../images/projects/shoe-customer.jpg"
 import Travel from "../../images/projects/travel.png"
+import DoWorkflow from "../../images/projects/bpmn-workflow.jpg"
+import DoForm from "../../images/projects/bpmn-form.jpg"
+import DoBpm from "../../images/projects/bpmn.jpg"
+import DoHRM from "../../images/projects/hrm.jpg"
+import DoRequest from "../../images/projects/request.jpg"
+import Dogoo from "../../images/projects/dogoo.jpg"
 
 const projects = [
     {
@@ -80,7 +86,42 @@ const projects = [
                 href: "https://github.com/dathymax/NextJS-travel"
             },
         ]
-    }
+    },
+    {
+        group: "Dogoo Office",
+        projects: [
+            {
+                name: "Dogoo Office",
+                image: Dogoo,
+                href: "https://office-stg.dogoo.vn/dashboard"
+            },
+            {
+                name: "doBpm - Workflow definition",
+                image: DoWorkflow,
+                href: "https://bpmn-stg.dogoo.vn/process/definition/add"
+            },
+            {
+                name: "doBpm - Form builder",
+                image: DoForm,
+                href: "https://bpmn-stg.dogoo.vn/process/form-builder/add"
+            },
+            {
+                name: "doBpm",
+                image: DoBpm,
+                href: "https://bpmn-stg.dogoo.vn/process/definition?doGroupId=all"
+            },
+            {
+                name: "doHrm",
+                image: DoHRM,
+                href: "https://hrm-stg.dogoo.vn/hrm/personnel/record/working"
+            },
+            {
+                name: "doRequest",
+                image: DoRequest,
+                href: "https://request-stg.dogoo.vn/hrm/application/administrative/all"
+            },
+        ]
+    },
 ]
 
 const ProjectPage = () => {

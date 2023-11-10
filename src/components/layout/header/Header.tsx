@@ -14,10 +14,6 @@ const links = [
         label: "Project",
         href: "/project",
     },
-    {
-        label: "Contact",
-        href: "/contact",
-    },
 ]
 
 const socials = [
