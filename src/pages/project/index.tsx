@@ -130,7 +130,7 @@ const ProjectPage = () => {
     const group = searchParams.get("group") || "all";
 
     useEffect(() => {
-        navigate(`/ReactJS-Portfolio/project?group=all`);
+        navigate(`/project?group=all`);
     }, [])
 
     const handleSetParams = (group: string) => {
