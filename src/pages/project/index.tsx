@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LoveTravel from "../../images/projects/love-travel.png"
 import LoveTravelSearch1 from "../../images/projects/love-travel-search1.png"
@@ -6,6 +6,9 @@ import LoveTravelSearch2 from "../../images/projects/love-travel-search2.png"
 import LoveTravelSport from "../../images/projects/love-travel-sport.png"
 import AirBnb from "../../images/projects/airbnb.png"
 import NextJSTravel from "../../images/projects/travel-nextjs.png"
+import ShoeAdmin from "../../images/projects/shoe-admin.jpg"
+import ShoeCustomer from "../../images/projects/shoe-customer.jpg"
+import Travel from "../../images/projects/travel.png"
 
 const projects = [
     {
@@ -43,28 +46,18 @@ const projects = [
         projects: [
             {
                 name: "Travel",
-                image: LoveTravel,
-                href: "https://dathymax.github.io/Love%20Travel/index.html"
+                image: Travel,
+                href: "https://github.com/dathymax/ReactJS-travel-frontend"
             },
             {
-                name: "Love Travel Search 1",
-                image: LoveTravelSearch1,
-                href: "https://dathymax.github.io/mycv-app/"
+                name: "Shoe admin",
+                image: ShoeAdmin,
+                href: "https://github.com/dathymax/DATN-Shoes-E-AdminFE-Reactjs"
             },
             {
-                name: "Love Travel Search 1",
-                image: LoveTravelSearch2,
-                href: "https://dathymax.github.io/theband-app/"
-            },
-            {
-                name: "Love Travel Sport",
-                image: LoveTravelSport,
-                href: "https://dathymax.github.io/Love%20Travel/child-web/sport/index.html#"
-            },
-            {
-                name: "AirBnb",
-                image: AirBnb,
-                href: "https://dathymax.github.io/Resort/index.html"
+                name: "Shoe customer",
+                image: ShoeCustomer,
+                href: "https://github.com/dathymax/DATN-Shoes-E-CustomerFE-Reactjs"
             },
         ]
     },
@@ -72,9 +65,9 @@ const projects = [
         group: "NodeJS",
         projects: [
             {
-                name: "Love Travel",
-                image: LoveTravel,
-                href: "https://dathymax.github.io/Love%20Travel/index.html"
+                name: "Shoe server",
+                image: ShoeAdmin,
+                href: "https://github.com/dathymax/DATN-Shoes-E-BE-Nodejs"
             },
         ]
     },
@@ -84,7 +77,7 @@ const projects = [
             {
                 name: "NextJS Travel",
                 image: NextJSTravel,
-                href: "https://dathymax.github.io/Love%20Travel/index.html"
+                href: "https://github.com/dathymax/NextJS-travel"
             },
         ]
     }
@@ -138,7 +131,7 @@ const ProjectPage = () => {
 
                                                 <div className="project-item__overlay"></div>
 
-                                                <button className='project-item__button bg-gray-300 rounded-full px-4 py-2 text-gray-600 font-medium text-[13px]'>View my website</button>
+                                                <button className='project-item__button bg-gray-300 rounded-full px-4 py-2 text-gray-600 font-medium text-[13px]'>View my website/repo</button>
                                             </div>
 
                                             <p className='text-primary text-[14px] mt-2 font-medium'>{project.group}</p>
@@ -160,7 +153,7 @@ const ProjectPage = () => {
 
                                                 <div className="project-item__overlay"></div>
 
-                                                <button className='project-item__button bg-gray-300 rounded-full px-4 py-2 text-gray-600 font-medium text-[13px]'>View my website</button>
+                                                <button className='project-item__button bg-gray-300 rounded-full px-4 py-2 text-gray-600 font-medium text-[13px]'>View my website/repo</button>
                                             </div>
 
                                             <p className='text-primary text-[14px] mt-2 font-medium'>{project.group}</p>

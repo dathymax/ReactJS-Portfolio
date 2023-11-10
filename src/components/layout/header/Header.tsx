@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { BiLogoFacebook, BiLogoGithub, BiLogoLinkedin } from "react-icons/bi"
 
@@ -43,7 +42,7 @@ const Header = () => {
     const { pathname } = useLocation();
 
     return (
-        <header className='bg-black py-5'>
+        <header className='bg-black py-5 fixed left-0 right-0 top-0'>
             <div className='container m-auto grid grid-cols-5 gap-4 text-white'>
                 <p className='col-span-1 text-2xl text-gray-400 text-center'>JDo</p>
 

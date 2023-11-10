@@ -1,4 +1,3 @@
-import React from "react";
 import Skill1 from "../../images/skills/html5.png";
 import Skill2 from "../../images/skills/css3.png";
 import Skill3 from "../../images/skills/git.png";
