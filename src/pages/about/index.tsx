@@ -55,11 +55,11 @@ const AboutPage = () => {
     }
 
     return (
-        <div>
+        <div className="px-5">
             <h1 className='text-4xl text-primary text-center py-10'>About me</h1>
             <div className='grid grid-cols-2 gap-5'>
                 {abouts.map(about => (
-                    <div className='col-span-1 last:text-right'>
+                    <div className='col-span-2 md:col-span-1 md:last:text-right'>
                         <h2 className='text-3xl text-primary mb-5'>{about.group}</h2>
 
                         {about.informations.map(information => (

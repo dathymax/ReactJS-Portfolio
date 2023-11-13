@@ -140,7 +140,7 @@ const ProjectPage = () => {
     }
 
     return (
-        <div>
+        <div className='px-5'>
             <h1 className='text-4xl text-center py-10 text-primary'>My projects</h1>
 
             <ul className='text-center'>
@@ -161,7 +161,7 @@ const ProjectPage = () => {
                 <div className='h-[50px]'></div>
 
                 {group === "all"
-                    ? <div className='grid grid-cols-4 gap-10'>
+                    ? <div className='grid md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-10'>
                         {projects
                             .map(project => (
                                 project.projects.map(item => (
