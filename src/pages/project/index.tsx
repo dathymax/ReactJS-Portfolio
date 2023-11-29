@@ -15,6 +15,7 @@ import DoBpm from "../../images/projects/bpmn.jpg"
 import DoHRM from "../../images/projects/hrm.jpg"
 import DoRequest from "../../images/projects/request.jpg"
 import Dogoo from "../../images/projects/dogoo.jpg"
+import SocialMedia from "../../images/projects/social-media.png"
 
 const projects = [
     {
@@ -65,6 +66,11 @@ const projects = [
                 image: ShoeCustomer,
                 href: "https://github.com/dathymax/DATN-Shoes-E-CustomerFE-Reactjs"
             },
+            {
+                name: "Social Media",
+                image: SocialMedia,
+                href: "https://github.com/dathymax/MERN-social-media-app/tree/main/client"
+            },
         ]
     },
     {
@@ -74,6 +80,11 @@ const projects = [
                 name: "Shoe server",
                 image: ShoeAdmin,
                 href: "https://github.com/dathymax/DATN-Shoes-E-BE-Nodejs"
+            },
+            {
+                name: "Social Media",
+                image: SocialMedia,
+                href: "https://github.com/dathymax/MERN-social-media-app/tree/main/server"
             },
         ]
     },
